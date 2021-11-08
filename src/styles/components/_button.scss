@@ -1,0 +1,33 @@
+.cart-button{
+    height: 50px;
+    width: 80px;
+    background-color: $darkBlue;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    color: white;
+    text-align: center;
+    grid-row-gap: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 1.5s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+    .cart{
+        background-image: url("../images/cart-copy-5.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 25px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    p{
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,15 @@
+.price{
+    p{
+        display: inline-block;
+        color: $darkBlue;
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0px;
+        margin-left: 5px;
+    }
+    span{
+        text-decoration: line-through;
+        color: #ccc;
+        font-size: 12px;
+    }
+}

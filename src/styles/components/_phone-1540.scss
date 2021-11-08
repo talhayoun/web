@@ -1,0 +1,61 @@
+@media screen and (max-width: 1540px){
+    .item{
+        grid-row-gap: 0px;
+        grid-template-rows: 60% 40%;
+        .item-details-container{
+            grid-template-rows: 70% 30%;
+            grid-template-columns: 1fr;
+            .cart-button{
+                width: unset;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1160px){
+    .app{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 1040px){
+    .app{
+        .content-container{
+            display: block;
+            .items-container{
+                width: 80%;
+                margin: 0 auto;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+    .banner{
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+    .aboutus{
+        .aboutus-container{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+
+            .aboutus-why, .aboutus-divs{
+                height: unset;
+            }
+        }
+    }
+
+    .footer{
+        overflow: hidden;
+        .footer-container{
+            padding: unset;
+            flex-direction: column;
+            margin: 0 auto;
+            div{
+                margin-bottom: 12px;
+            }
+        }
+    }
+}

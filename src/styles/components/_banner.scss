@@ -1,0 +1,12 @@
+.banner{
+    background-image: url("../images/banner.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    border-radius: 8px;
+    transition: all 0.8s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

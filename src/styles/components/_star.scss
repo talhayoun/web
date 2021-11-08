@@ -1,0 +1,19 @@
+.star-container{
+    display: flex;
+    align-items: center;
+
+    .star{
+        background-image: url("../images/star.png");
+        height: 15px;
+        width: 15px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    p{
+        display: inline-block;
+        color: #ccc;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+}

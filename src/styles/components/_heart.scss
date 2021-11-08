@@ -1,0 +1,17 @@
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 25px;
+    width: 25px;
+    z-index: 1;
+    transition: all 1.0s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+        color: red;
+    }
+}
+
+// .red-heart{
+//     filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg)
+// }

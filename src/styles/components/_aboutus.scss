@@ -1,0 +1,89 @@
+.aboutus{
+    background-color: rgb(237, 237, 237);
+    // height: 400px;
+    width: 100%;
+    color: $darkBlue;
+    .aboutus-container{
+        padding: 3% 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+
+        .aboutus-why{
+            width: 270px;
+            height: 300px;
+            h2{
+                font-size: 40px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid $darkBlue;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 25px;
+                font-weight: 500;
+            }
+        }
+        .aboutus-fastdelivery{
+            transition: all 0.8s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+                background-color: #fff;
+            }
+            .aboutus-fastdelivery-img{
+                background-image: url("../images/iconfinder-5253078-box-delivery-product-icon.svg");
+                background-size: contain;
+                height: 80px;
+                width: 80px;
+                background-repeat: no-repeat;
+            }
+        }
+        .aboutus-service{
+            transition: all 0.8s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+                background-color: #fff;
+            }
+            .aboutus-service-img{
+                background-image: url("../images/iconfinder-3552239-chat-conversation-formal-male-man-icon.svg");
+                background-size: contain;
+                height: 80px;
+                width: 80px;
+                background-repeat: no-repeat;
+            }
+            h2{
+                margin-bottom: 0;
+            }
+            p{
+                margin: 0;
+                margin-top: 5px;
+                padding: 20px;
+            }
+        }
+        .aboutus-star{
+            transition: all 0.8s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+                background-color: #fff;
+            }
+            .aboutus-star-img{
+                background-image: url("../images/iconfinder-731069-safe-sheald-trust-verification-icon.svg");
+                background-size: contain;
+                height: 80px;
+                width: 80px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+.aboutus-divs{
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;            
+    // width: 270px;
+    height: 300px;
+}
